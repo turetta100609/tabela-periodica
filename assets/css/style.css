@@ -1,0 +1,137 @@
+/**reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**variável**/
+
+:root{
+    --color-nao-metais:#eb96f7;
+    --color-gases-nobres: #86cce7;
+    --color-metais-alcalinos: #e20808;
+    --color-semimetais:#50e4b7;
+    --color-halogenios:#87b465;
+    --color-outros-metais: #ecee92;
+    --color-metais-transicao: #5aa599;
+    --color-lantanideos: #277da1;
+    --color-actinidios: #83216a;
+    --color-metais-alcalinos-terrosos: #faa5a5;
+    --color-text: #fff;
+}
+
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: var(--color-text);
+}
+
+.naoMetais{
+    background-color: var(--color-nao-metais);
+}
+.gasesNobres{
+    background-color: var(--color-gases-nobres);
+}
+.mataisAlcalinos{
+    background-color: var(--color-metais-alcalinos);
+}
+.semiMetais{
+    background-color: var(--color-semimetais)
+}
+.helogenios{
+    background-color: var(--color-halogenios);
+}
+.outrosMetai{
+    background-color: var(--color-outros-metais);
+}
+.mataisTransição{
+    background-color: var(--color-metais-transicao)
+}
+.lantanideos{
+    background-color: var(--color-lantanideos);
+}
+.actinideos{
+    background-color: var(--color-actinidios);
+}
+.metaisAlcalinosTerrosos{
+    background-color: var(--color-metais-alcalinos-terrosos);
+}
+
+.estilo{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.right{
+    text-align: right;
+}
+
+/*desktop*/
+@media screen and (min-width: 600px){ 
+    .linha01,
+    .linha02{
+        display: flex;
+        justify-content: space-between;
+    }
+    .elementosesq,
+    .elementosdir{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 600px){ 
+    .linha03{
+        display: flex;
+        justify-content:space-between;
+    }
+
+}
+@media screen and (min-width: 600px){ 
+    .linha04{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media screen and (min-width: 600px){ 
+    .linha05{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 600px){ 
+    .linha06{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 600px){ 
+    .linha07{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 600px){ 
+    .linha08{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 600px){ 
+    .linha0{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
